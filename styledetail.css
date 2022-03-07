@@ -1,0 +1,94 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+    background: rgb(0, 68, 16);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: myFirstFont;
+    color: white;
+    padding: 20px;
+}
+.title__banner{
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-family: myFirstFont;
+
+    
+}
+.title__1 h3{
+    font-size: 20px;
+    font-family: myFirstFont ;
+    justify-content: center;
+    margin-top: 220px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}.banner img, .img__mcc{
+    object-fit: cover;
+    width: 100%;
+}
+.thadu{
+    border: 3px dotted rgb(0, 0, 0);
+}
+.image__1{
+    padding: 20px;
+}
+.luachin{
+    margin-top: 50px;
+    position: relative;
+}
+.titlte__mualuachin{
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.titlte__mualuachin h1{
+    font-family: myFirstFont;
+    text-align: center;
+
+}
+.img__mcc__add, .title__tresuoigiang img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.title__nhabugalow,.title__tresuoigiang, .tittle__tpyb,  .title__yenbinh{
+    font-size: 20px;
+    font-family: myFirstFont;
+    padding: 25px;
+}
+.img__mcc__add img{
+    width: 100%;
+    object-fit: cover;
+}
+/*Thành phố css*/
+.img__mcc__add__tpyb{
+    width: 60%;
+    margin-top: 50px;
+    object-fit: cover;
+    
+}
